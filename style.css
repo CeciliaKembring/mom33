@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+table{
+margin: 0 auto;
+}
+tr, td, th{
+    border: solid black .2px;
+}
+th, td{
+    padding: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 20px;
+    width: 250px;
+}
+input{
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}

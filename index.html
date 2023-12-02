@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kurser</title>
+</head>
+<body>
+
+    <h1>Kurser</h1>
+
+    <table>
+        <thead>
+            <tr>
+        
+                <th>Kurskod</th>
+                <th>Kursnamn</th>
+                <th>Kursplan</th>
+                <th>Progression</th>
+                <th>Termin</th>
+                <th>Ta bort</th>
+            </tr>
+        </thead>
+        <tbody id="courses-table">
+            <!-- Kurser kommer att läggas till här -->
+        </tbody>
+    </table>
+
+    <h2>Lägg till kurs</h2>
+    <form id="add-course">
+        <label for="kurskod">Kurskod</label>
+        <input type="text" id="kurskod" name="kurskod"><br>
+        <label for="kursnamn">Kursnamn</label>
+        <input type="text" id="kursnamn" name="kursnamn"><br>
+        <label for="kursplan">Kursplan</label>
+        <input type="text" id="kursplan" name="kursplan"><br>
+        <label for="progression">Progression</label>
+        <input type="text" id="progression" name="progression"><br>
+        <label for="termin">Termin</label>
+        <input type="text" id="termin" name="termin"><br>
+        <button>Lägg till</button>
+    </form>
+
+    <script src="models/course.js"></script>
+    <script src="routes/courses.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

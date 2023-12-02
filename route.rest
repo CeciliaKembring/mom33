@@ -8,7 +8,8 @@ GET http://localhost:3000/courses/655b1bf70f6acc81c1371be8
 ###
 
 POST http://localhost:3000/courses 
-Content-Type: : application/json
+Content-Type: application/json
+
 
 {
     "kurskod": "Test",
