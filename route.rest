@@ -1,0 +1,23 @@
+GET http://localhost:3000/courses 
+
+### 
+
+GET http://localhost:3000/courses/655b1bf70f6acc81c1371be8
+
+
+###
+
+POST http://localhost:3000/courses 
+Content-Type: : application/json
+
+{
+    "kurskod": "Test",
+    "kursnamn": "Projekt",
+    "kursplan": "test",
+    "progression": "test",
+    "termin": "VT23"
+}
+
+###
+
+DELETE http://localhost:3000/courses/65689a9c681a99a7c25b8145
